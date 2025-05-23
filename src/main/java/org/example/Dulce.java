@@ -1,7 +1,7 @@
 package org.example;
 
 public class Dulce {
-    public int tipo;//tipo de dulce (rayado, normal, choco bomba)
+    public int tipo;//tipo de dulce
     public int fila;
     public int columna;
     public int x;
