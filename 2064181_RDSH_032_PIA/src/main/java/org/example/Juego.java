@@ -349,7 +349,10 @@ public class Juego {
     public int getClick() {return click;}
     public int getPuntaje() {return puntaje;}
     public int getMovimientos() {return movimientos;}
+    public void setPuntaje(int puntaje) {this.puntaje = puntaje;}
+    public void setMovimientos(int movimientos) {this.movimientos = movimientos;}
 
     public boolean ganador() {return puntaje >= puntaje_ganador;}
     public boolean perdedor() {return movimientos <= 0 && puntaje < puntaje_ganador;}
+
 }
